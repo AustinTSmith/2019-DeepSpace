@@ -123,6 +123,7 @@ public class Climber extends Subsystem
                             mFrontRightClimberSolenoid.set(Value.kForward);
                             mRearLeftClimberSolenoid.set(Value.kForward);
                             mRearRightClimberSolenoid.set(Value.kForward);
+                            Timer.delay(2.5);
                         }
                         break;
 
@@ -133,6 +134,7 @@ public class Climber extends Subsystem
                         {
                             mFrontLeftClimberSolenoid.set(Value.kReverse);
                             mFrontLeftClimberSolenoid.set(Value.kReverse);
+                            Timer.delay(2.5);
                         }
                         break;
 
@@ -144,6 +146,7 @@ public class Climber extends Subsystem
                         {
                             mRearLeftClimberSolenoid.set(Value.kReverse);
                             mRearRightClimberSolenoid.set(Value.kReverse);
+                            Timer.delay(2.5);
                         }
                         break;
 

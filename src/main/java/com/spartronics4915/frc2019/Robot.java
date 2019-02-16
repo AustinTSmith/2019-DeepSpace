@@ -122,7 +122,7 @@ public class Robot extends TimedRobot
                 SmartDashboard.putString(kRobotTestVariant, "");
 
                 mControlBoard = new ControlBoard();
-            }
+            }q3
             catch (Exception e)
             {
                 // Try to avoid "robots don't quit" if there's a bug in subsystem init
